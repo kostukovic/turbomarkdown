@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Turbomarkdown</title>
+
+  <!-- highlight.js (Dark Styles + Core + Common-Langs) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.9.0/styles/vs2015.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets@11.9.0/highlight.min.js"></script>
+
+
+
+  <!-- KaTeX (TeX-Rendering wie bei GitHub) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.css">
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.10/dist/contrib/auto-render.min.js"></script>
+
+  <!-- Marked (Markdown-Parser) -->
+  <script defer src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+  <!-- Lokale Module (Reihenfolge ist wichtig) -->
+  <script defer src="theme.js"></script>
+  <script defer src="katex.js"></script>
+  <script defer src="md2html.js"></script>
+  <script defer src="engine.js"></script>
+  <script defer src="style.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app-main">
+    <div class="panel">
+      <!-- Globale Variant-Leiste (oben links) -->
+      <nav class="variant-bar" id="variant-bar" aria-label="Varianten"></nav>
+
+      <!-- Theme-Toggle (oben rechts) -->
+      <button class="btn btn--pill theme-toggle" id="theme-toggle" aria-label="Theme umschalten">Auto</button>
+
+      <!-- Ausgabe -->
+      <div id="output" class="md-output">
+        <p class="muted">Lade Markdown-Dateien …</p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

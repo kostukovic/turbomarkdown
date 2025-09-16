@@ -1,0 +1,99 @@
+/* vscode-hljs.css */
+.hljs { line-height: 1.5; }
+
+/* Links in Code (falls vorhanden) */
+.theme-light .hljs a,
+.theme-dark  .hljs a { color: inherit; text-decoration: underline dotted; }
+
+/* (Deine Farben bleiben unverändert darunter) */
+
+
+
+/* VS Code Light+ */
+.theme-light .hljs {
+    background: #ffffff !important;
+    color: #000000 !important;
+    padding: 12px 14px;
+    border-radius: 8px;
+  }
+  
+  /* Kommentare */
+  .theme-light .hljs-comment,
+  .theme-light .hljs-quote { color: #008000 !important; }
+  
+  /* Keywords, Selektoren */
+  .theme-light .hljs-keyword,
+  .theme-light .hljs-selector-tag,
+  .theme-light .hljs-doctag { color: #0000ff !important; }
+  
+  /* Strings */
+  .theme-light .hljs-string,
+  .theme-light .hljs-attr .hljs-string,
+  .theme-light .hljs-template-tag .hljs-string { color: #a31515 !important; }
+  
+  /* Zahlen / Literale */
+  .theme-light .hljs-number,
+  .theme-light .hljs-literal,
+  .theme-light .hljs-symbol,
+  .theme-light .hljs-bullet { color: #098658 !important; }
+  
+  /* Funktionen */
+  .theme-light .hljs-title.function_,
+  .theme-light .hljs-function .hljs-title { color: #795e26 !important; }
+  
+  /* Typen / Klassen / Builtins */
+  .theme-light .hljs-type,
+  .theme-light .hljs-class .hljs-title,
+  .theme-light .hljs-built_in { color: #2b91af !important; }
+  
+  /* Properties / Attribute / Params */
+  .theme-light .hljs-attr,
+  .theme-light .hljs-attribute,
+  .theme-light .hljs-property,
+  .theme-light .hljs-params { color: #001080 !important; }
+  
+  /* Tags (HTML) */
+  .theme-light .hljs-name,
+  .theme-light .hljs-tag .hljs-name { color: #800000 !important; }
+  
+  /* ===================================================================== */
+  
+  /* VS Code Dark+ */
+  .theme-dark .hljs {
+    background: #1e1e1e !important;
+    color: #d4d4d4 !important;
+    padding: 12px 14px;
+    border-radius: 8px;
+  }
+  
+  .theme-dark .hljs-comment,
+  .theme-dark .hljs-quote { color: #6a9955 !important; }
+  
+  .theme-dark .hljs-keyword,
+  .theme-dark .hljs-selector-tag,
+  .theme-dark .hljs-doctag { color: #c586c0 !important; }
+  
+  .theme-dark .hljs-string,
+  .theme-dark .hljs-attr .hljs-string,
+  .theme-dark .hljs-template-tag .hljs-string { color: #ce9178 !important; }
+  
+  .theme-dark .hljs-number,
+  .theme-dark .hljs-literal,
+  .theme-dark .hljs-symbol,
+  .theme-dark .hljs-bullet { color: #b5cea8 !important; }
+  
+  .theme-dark .hljs-title.function_,
+  .theme-dark .hljs-function .hljs-title { color: #dcdcaa !important; }
+  
+  .theme-dark .hljs-type,
+  .theme-dark .hljs-class .hljs-title,
+  .theme-dark .hljs-built_in { color: #4ec9b0 !important; }
+  
+  .theme-dark .hljs-attr,
+  .theme-dark .hljs-attribute,
+  .theme-dark .hljs-property,
+  .theme-dark .hljs-params { color: #9cdcfe !important; }
+  
+  .theme-dark .hljs-name,
+  .theme-dark .hljs-tag .hljs-name { color: #569cd6 !important; }
+  
