@@ -21,7 +21,7 @@ Turbomarkdown wandelt Markdown in **lesefreundliches HTML** und ergänzt:
 
 Man kann die KI bitten, ein praxisorientiertes, prägnantes, projektbezogenes Handbuch zu erstellen – jeweils in Kurz- und Langfassung, inklusive Tipps zur Fehlervermeidung. So erhält man schnell nutzbare Inhalte, ohne zwingend zusätzliche Fachbücher kaufen zu müssen. Bei Unklarheiten: Codeabschnitt kopieren und der KI zur Erklärung geben.
 
-Mein Quick-Demo als Beispiel (ohne Installation): [https://xprototyp.de/company](https://xprototyp.de/company)
+Mein Quick-Demo als Beispiel (ohne Installation): [https://xprototyp.de/sub/turbomarkdown/index.html](https://xprototyp.de/sub/turbomarkdown/index.html)
 
 > **Tipp**: Relevante Kapitel (z. B. das Inhaltsverzeichnis) an die KI geben → kurze, praxisnahe Zusammenfassung + „nicht empfohlen“-Liste für mein Projekt.
 
